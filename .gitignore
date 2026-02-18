@@ -1,0 +1,59 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/
+
+# ==============================
+# Generated Reports
+# ==============================
+cardiac_report_*.pdf
+*.pdf
+
+# Generated Images
+# ==============================
+*.png
+gradcam.png
+shap.png
+lime.png
+pdp.png
+lead_attention.png
+ecg_plot.png
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# Model Artifacts (if large)
+# ==============================
+# *.h5
+# *.keras
+# *.pkl
+# *.joblib
+# *.json
+
+# Uncomment below IF models are large (>100MB)
+# models/
